@@ -19,8 +19,8 @@ public class LoginSteps {
     @When("Enter username and password click login button")
     public void enterUsernameAndPasswordClickLoginButton() {
         dc.findAndClick("signIn");
-        dc.findAndSend("email"," grup99999@gmail.com");
-        dc.findAndSend("password","Grup99999");
+        dc.findAndSend("email","alexpeters@gmail.com");
+        dc.findAndSend("password","AlexPeters1");
         dc.findAndClick("signInBttn");
     }
 
@@ -28,8 +28,8 @@ public class LoginSteps {
     public void userShouldLoginSuccessfuly() {
     }
 
-  /*  @Then("Success message should be displayed")
+    @Then("Success message should be displayed")
    public void successMessageShouldBeDisplayed() {
-        dc.findAndCountainsText("signInAssert","Welcome, A B!");
-    }   */
+        dc.findAndCountainsText("signInAssert","Welcome, Alex Peters!");
+    }
 }

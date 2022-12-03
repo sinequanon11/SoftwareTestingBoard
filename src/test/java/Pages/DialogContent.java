@@ -24,7 +24,7 @@ public class DialogContent extends Parent {
     @FindBy(xpath="//span[text()='Sign In']")
     private WebElement signInBttn;
 
-    @FindBy(xpath="//span[text()='Welcome, Grup4 4Grup!']")
+    @FindBy(xpath="//span[text()='Welcome, Alex Peters!']")
     private WebElement signInAssert;
 
     @FindBy(xpath="//span[text()='Women']")
@@ -138,11 +138,6 @@ public class DialogContent extends Parent {
         verifyContainsTextFunc(myElement,text);
     }
     public void  findAndDelete(String searchTex){
-//        findAndSend("searchInput",searchTex);
-//        findAndClick("searchButton");
-        // wait.until(ExpectedConditions.stalenessOf(deleteButton)); zaman araligini yakalayamadi
-//        waitUntilLoading();
-//        findAndClick("deleteButton");
-//        findAndClick("deleteDialogBtn");
+
     }
 }

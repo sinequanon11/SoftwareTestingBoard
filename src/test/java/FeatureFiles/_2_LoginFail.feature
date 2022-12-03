@@ -11,8 +11,8 @@ Feature: Login Fail
     And Click on the login button
 
     Examples:
-      | email           | password |
-      | grup4@gmail.com | Grup4444 |
-      | grup4@gmail.com | Grup3333 |
-      | grup3@gmail.com | Grup4444 |
+      | email                | password             |
+      | alexpeters@gmail.com | Grup4444             |
+      | eeeee@gmail.com      | AlexPeters1          |
+      | alexpeters@gmail.com | AlexPeters1          |
 
