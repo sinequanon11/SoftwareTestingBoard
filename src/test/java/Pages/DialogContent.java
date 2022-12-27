@@ -90,8 +90,7 @@ public class DialogContent extends Parent {
     WebElement myElement;
 
     public void findAndSend(String strElement, String value){
-        //element get
-
+       
         switch (strElement){
             case "email" : myElement=email;break;
             case "password" : myElement=password;break;
@@ -106,7 +105,7 @@ public class DialogContent extends Parent {
     }
 
     public void findAndClick(String strElement){
-        //element get
+      
         switch (strElement){
             case "signIn" : myElement=signIn;break;
             case "signInBttn" : myElement=signInBttn;break;
